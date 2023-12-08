@@ -128,7 +128,7 @@ int main()
             printf("not hello world\n");
         }
 #endif
-#if 1
+#if 0
     /*且： 两边都满足*/
          int condition1 = 1;
          int condition2 = 2;
@@ -141,6 +141,17 @@ int main()
             printf("not hello world\n");
         }
 #endif
+#if 1
+        /*运算符：双目运算符 & 三目运算符*/
+        /*双目运算符*/
+        //int a = 7 + 8
+        /* */
+        int num1 = 40;
+        int num2 = 30;
+         /*三目运算符 */
+         int num3 = (num1 > num2 ) ? 100 : 666;
+         printf("num3:%d\n", num3);
 
+#endif
     return 0;
 }
