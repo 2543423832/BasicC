@@ -18,7 +18,7 @@ for (int  idx = 0; idx < BUFFER_SIZE; idx++)
 
     */
    #endif
-#if 0
+#if 1
     /*字符数组*/
     char array[BUFFER_SIZE] = "hello world";
     int len = sizeof(array);

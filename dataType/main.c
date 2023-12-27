@@ -14,7 +14,7 @@ enum STATUS_CODE
 #define RANGE_NUM  200
 int main()
 {
-#if 0
+#if 1
     /*判断语句*/
     int budget = 5000;
     int applephone = 8999;
@@ -34,7 +34,7 @@ int main()
     }
 
 #endif
-#if 0
+#if 1
     int budget = 5000;
     int applephone = 8999;
     int mi14Pro = 4399;
@@ -61,7 +61,7 @@ int main()
 #endif
 /*代码规范1：一个函数尽量不要超过80行 最多不要超过120行.*/
 
-#if 0
+#if 1
     /*swith*/
     /*坑1：每一个case都需要有break*/
     int choice = 0;
@@ -84,23 +84,19 @@ int main()
         break;
     }
 #endif
-#if 0
+#if 1
+    srand (time(NULL));
     /*请你写一个100以内的[0-100]*/
     /*循环*/
     /*for 循环*/
    /*代码规范:循环不允许使用i*/
    /*代码规范:不允许使用魔鬼数字*/
-   //int randomNum = 0;
+    int randomNum = 0;
     for (int idx = 0; idx < COUNT_NUM; idx++)
     {
-       int randomNum = rand() % RANGE_NUM + 1;
+       int randomNum = rand() % RANGE_NUM + 1;//rand 打印随机数
        printf("randomNum:%d\n", randomNum);
     }
-    
-    
- 
-
-
 #endif
 #if 1 
     srand(time(NULL));

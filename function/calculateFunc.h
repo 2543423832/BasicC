@@ -1,5 +1,5 @@
-#ifndef __CALCUATE_FUNC_H_
-#define __CALCUATE_FUNC_H_
+#ifndef __CALCULATE_FUNC_H_
+#define __CALCULATE_FUNC_H_
 
 //避免头文件包含。/
 #include <stdio.h>
